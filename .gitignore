@@ -1,0 +1,19 @@
+# Ignore data folders to prevent large file uploads and secret scanning issues
+data/
+
+# Model Output Directories
+out/
+llama-3.2-3b-lora/
+merged-llama-3.2-3b/
+quantized-llama-3.2-3b-awq/
+llama-3.2-3b-finetuned/
+
+# Zip binaries
+*.zip
+*.bin
+*.safetensors
+
+# Colab / Python ignores
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
